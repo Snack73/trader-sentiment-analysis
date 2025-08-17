@@ -1,0 +1,37 @@
+
+SUMMARY: Bitcoin Market Sentiment & Trader Performance Analysis
+
+DATASET OVERVIEW:
+- Analysis Period: 2023-05-01 to 2025-05-01
+- Total Trades Analyzed: 211,218
+- Unique Traders: 32
+
+PERFORMANCE VS. SENTIMENT (Average PnL per trade):
+classification
+Extreme Fear     34.54
+Extreme Greed    67.89
+Fear             54.29
+Greed            42.74
+Neutral          34.31
+
+KEY INSIGHTS:
+- Best Performing Sentiment: Extreme Greed (Avg PnL: $67.89)
+- Worst Performing Sentiment: Neutral (Avg PnL: $34.31)
+- Highest Win Rate Sentiment: Extreme Greed (46.5%)
+- Lowest Win Rate Sentiment: Extreme Fear (37.1%)
+
+WIN RATE ANALYSIS (% of profitable trades):
+classification
+Extreme Fear     37.1
+Extreme Greed    46.5
+Fear             42.1
+Greed            38.5
+Neutral          39.7%
+
+CONCLUSION:
+This analysis reveals a distinct relationship between market sentiment and trading performance.
+Traders achieved the highest average profits ($67.89/trade) and the highest
+win rate (46.5%) during periods of 'Extreme Greed'. This indicates that during
+peak market optimism, trades were both more frequently profitable and generated higher returns
+on average. Conversely, the lowest average profitability occurred during 'Neutral'
+periods, suggesting traders should exercise increased caution when market sentiment is neutral or fearful.
